@@ -10,7 +10,7 @@ function App() {
     <Header title="React Dashboard" />
     <div class="container-fluid">
       <div class="row">
-        <Sidebar icons={false} />
+        <Sidebar/>
         <Content/>
       </div>
     </div>

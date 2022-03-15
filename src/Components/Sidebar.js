@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 export const Sidebar = (props) => {
   return (
@@ -78,4 +79,12 @@ export const Sidebar = (props) => {
       </div>
     </nav>
   )
+}
+
+Sidebar.defaultProps = {
+  icons: true
+}
+
+Sidebar.propTypes = {
+  icons: PropTypes.bool
 }
